@@ -3,7 +3,8 @@ var prompt = require('prompt-sync')();
 let range = parseInt(prompt("Enter the range : "));
 
 let fNum = parseInt(prompt("Enter the First Number of Sequence : "));
-let lNum = parseInt(prompt("Enter the Last Number of Sequence: "));
+let lNum = fNum +(range-1);
+ 
 
 /* Get the array values */
 let arr = [];
